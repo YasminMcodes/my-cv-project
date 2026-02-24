@@ -1,0 +1,111 @@
+.cv-preview {
+  background: white;
+  color: black;
+  padding: 40px;
+  margin-top: 40px;
+  border: 2px solid #003399;
+}
+
+.cv-title {
+  text-align: center;
+  color: #003399;
+  border-bottom: 3px solid #003399;
+  padding-bottom: 10px;
+}
+
+.cv-preview section {
+  margin-bottom: 20px;
+}
+
+.cv-preview h3 {
+  color: #003399;
+}
+.print-btn {
+  position: fixed;
+  top: 20px;
+  right: 30px;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: #3f5d98;
+  color: white;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.3s ease;
+  z-index: 1000;
+}
+
+.print-btn:hover {
+  background-color: #001f66;
+  transform: scale(1.05);
+}
+.cv {
+  background: white;
+  color: black;
+  padding: 40px;
+  max-width: 800px;
+  margin: auto;
+  font-family: Arial, sans-serif;
+}
+
+.cv-header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  border-bottom: 3px solid #003399;
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+}
+
+.profile-img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.cv h1 {
+  color: #003399;
+  margin: 0;
+}
+
+.cv h2 {
+  color: #003399;
+  margin-top: 25px;
+  border-bottom: 2px solid #003399;
+  padding-bottom: 5px;
+}
+
+.cv-entry {
+  margin-bottom: 15px;
+}
+
+.cv ul {
+  padding-left: 20px;
+}
+
+.download-btn {
+  position: fixed;
+  top: 20px;
+  right: 30px;
+  padding: 10px 20px;
+  background-color: #003399;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.download-btn:hover {
+  background-color: #001f66;
+}
+
+@media print {
+  .download-btn {
+    display: none;
+  }
+}
